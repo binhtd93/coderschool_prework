@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+<%= form_tag(articles_path, :method => "get") do %>
+    <%= text_field_tag :search, params[:search], placeholder: 'Search title' %>
+    <button type='submit', class='btn btn-info btn-sm'> 
+    Search
+    </button>
+<% end %>
+
+<div class="container">
+<h1>Binh's blog</h1>
+<h3>My first Rails Application for Coder School</h3>
+
+<%= render @articles %>
+<br>
+
+<%= link_to 'New Article', new_article_path %>
+</div>
+
+
