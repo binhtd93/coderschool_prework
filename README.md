@@ -32,11 +32,11 @@ The following **additional** features are implemented:
 
 ## Video Walkthrough: 
 
-![demo](http://imgur.com/a/5t2em)
+![demo](https://github.com/binhtd93/coderschool_prework/blob/master/coderschool_prework.gif)
 
 Here's a walkthrough of implemented user stories:
 
-GIF created with [LiceCap](http://www.cockos.com/licecap/).
+GIF created with [LiceCap](www.cockos.com/licecap/).
 
 ## Notes
  
